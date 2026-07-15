@@ -30,15 +30,15 @@ The bedrock concepts every engineer must internalize.
 - **`complexity_analysis/`** — Big-O, time/space complexity, amortized analysis
 - **`testing/`** — `unittest`, `pytest`, fixtures, mocking, coverage, property-based testing
 
-### `01_solid/` — SOLID Design Principles
+### `01_solid_principles/` — SOLID Design Principles
 The five pillars of object-oriented design.
 
-- `srp/` — Single Responsibility Principle
-- `ocp/` — Open/Closed Principle
-- `lsp/` — Liskov Substitution Principle
-- `isp/` — Interface Segregation Principle
-- `dip/` — Dependency Inversion Principle
-- `mini_projects/` — End-to-end SOLID exercises
+- `01_single_responsibility_principle/` — Single Responsibility Principle
+- `02_open_closed_principle/` — Open/Closed Principle
+- `03_liskov_substitution_principle/` — Liskov Substitution Principle
+- `04_interface_segregation_principle/` — Interface Segregation Principle
+- `05_dependency_inversion_principle/` — Dependency Inversion Principle
+- `06_mini_projects/` — 2026-themed small projects (AI chat widget, dark mode, validators, hub, HTTP client)
 
 ### `02_patterns/` — Design Patterns
 The canonical GoF patterns with real-world applications.
@@ -79,16 +79,22 @@ What makes software production-ready.
 - `observability/` — Metrics, tracing (OpenTelemetry), health checks, Prometheus
 - `performance_optimization/` — Profiling, memory profiling, benchmarking
 
-### `06_projects/` — Applied Systems Projects
-Hands-on projects synthesizing prior modules.
+### `06_projects/` — Small Frontend + AI Projects (2026)
+Hands-on projects synthesizing prior modules. Each is **3–5 small files** and targets
+the trends shaping 2026 frontend / AI work.
 
-- `student_management_system/` — Layered domain application
-- `notification_service/` — Multi-channel notification dispatch
-- `recommendation_system/` — Collaborative + content + hybrid recommenders
-- `experiment_tracker/` — ML experiment tracking & artifact storage
-- `model_registry/` — Versioned model lifecycle management
-- `feature_store/` — Online/offline feature consistency
-- `inference_service/` — Model serving with batching & throttling
+- `ai_chat_ui_kit/` — Reusable streaming chat UI primitives
+- `webllm_browser_inference/` — Run LLMs in-browser via WebGPU + Web Workers
+- `realtime_collab_editor/` — CRDT-based multi-cursor editor
+- `rag_docs_assistant/` — Docs Q&A with cited answers
+- `edge_url_shortener/` — URL shortener on edge functions + KV
+- `design_token_pipeline/` — Tokens → CSS vars / Tailwind / native
+- `server_components_playground/` — React Server Components patterns
+- `ai_image_studio/` — Prompt-to-image with queueing and gallery
+- `browser_voice_agent/` — In-browser voice assistant (wake word + STT + TTS)
+- `edge_auth_passkeys/` — Passwordless auth with WebAuthn passkeys
+- `feature_flag_service/` — Targeting, rollouts, A/B with React hooks
+- `streaming_markdown_renderer/` — Incremental, safe markdown streaming
 
 ### `07_research/` — Research Engineering
 The scientific method applied to engineering work.
@@ -103,11 +109,14 @@ The scientific method applied to engineering work.
 ### `08_capstone/` — Capstone Systems
 End-to-end systems that integrate everything.
 
-- `ml_pipeline/` — Data → validation → features → training → evaluation → orchestration
-- `rag_system/` — Ingestion → chunking → embedding → vector store → retrieval → generation
-- `recommendation_platform/` — Candidates → ranking → serving → evaluation
-- `fraud_detection_system/` — Rules + ML → real-time scoring → alerting → monitoring
-- `complete_ml_platform/` — Full ML platform: data, features, training, registry, serving, governance
+- `ai_portfolio_generator/` — Resume → AI-written copy → styled static site → deploy
+- `realtime_ai_tutor/` — Voice-driven AI tutor with whiteboard and progress
+- `edge_native_saas/` — Multi-tenant SaaS on edge (routing, KV, billing, RBAC, OTEL)
+- `visual_ai_agent_builder/` — Drag-and-drop agent composition + runtime + evals
+- `pwa_offline_notes/` — Offline-first PWA with conflict-free sync
+- `realtime_analytics_dashboard/` — Live event-stream dashboard with sub-second updates
+- `ai_code_review_bot/` — GitHub App that posts LLM review comments on PRs
+- `microfrontend_ecommerce/` — Module-federation storefront with team-owned slices
 
 ---
 
