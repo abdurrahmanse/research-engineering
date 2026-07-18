@@ -6,7 +6,7 @@ A comprehensive, structured learning and engineering repository covering softwar
 
 ## Author
 
-**Abdur Rahman** — Frontend Developer
+**Abdur Rahman** — Developer
 
 - 📱 WhatsApp: [01705952160](https://wa.me/8801705952160)
 - ✉️ Email: [abdurrahmansoftw@gmail.com](mailto:abdurrahmansoftw@gmail.com)
@@ -16,6 +16,7 @@ A comprehensive, structured learning and engineering repository covering softwar
 ## Repository Structure
 
 ### `00_foundations/` — Core Engineering Foundations
+
 The bedrock concepts every engineer must internalize.
 
 - **`python/`** — Python language mastery
@@ -31,6 +32,7 @@ The bedrock concepts every engineer must internalize.
 - **`testing/`** — `unittest`, `pytest`, fixtures, mocking, coverage, property-based testing
 
 ### `01_solid_principles/` — SOLID Design Principles
+
 The five pillars of object-oriented design.
 
 - `01_single_responsibility_principle/` — Single Responsibility Principle
@@ -41,6 +43,7 @@ The five pillars of object-oriented design.
 - `06_mini_projects/` — 2026-themed small projects (AI chat widget, dark mode, validators, hub, HTTP client)
 
 ### `02_patterns/` — Design Patterns
+
 The canonical GoF patterns with real-world applications.
 
 - **`creational/`** — `singleton/`, `factory/`, `builder/`
@@ -49,6 +52,7 @@ The canonical GoF patterns with real-world applications.
 - **`pattern_compositions/`** — Patterns composed together (strategy + factory, repository + UoW, …)
 
 ### `03_refactoring/` — Refactoring & Code Quality
+
 Improving existing code without changing behavior.
 
 - `code_smells/` — Catalog of smells (long method, large class, shotgun surgery, …)
@@ -59,6 +63,7 @@ Improving existing code without changing behavior.
 - `architecture_refactoring/` — Monolith decomposition, layer separation, bounded contexts
 
 ### `04_architecture/` — Software Architecture
+
 Architectural styles and patterns at the system level.
 
 - `layered_architecture/` — Presentation / business / persistence layers
@@ -69,6 +74,7 @@ Architectural styles and patterns at the system level.
 - `event_driven_architecture/` — Event bus, handlers, sagas
 
 ### `05_systems/` — Systems & Production Concerns
+
 What makes software production-ready.
 
 - `configuration_management/` — Env vars, YAML/TOML, Pydantic settings, secrets
@@ -80,6 +86,7 @@ What makes software production-ready.
 - `performance_optimization/` — Profiling, memory profiling, benchmarking
 
 ### `06_projects/` — Small Frontend + AI Projects (2026)
+
 Hands-on projects synthesizing prior modules. Each is **3–5 small files** and targets
 the trends shaping 2026 frontend / AI work.
 
@@ -97,6 +104,7 @@ the trends shaping 2026 frontend / AI work.
 - `streaming_markdown_renderer/` — Incremental, safe markdown streaming
 
 ### `07_research/` — Research Engineering
+
 The scientific method applied to engineering work.
 
 - `paper_reproduction/` — Selecting, extracting, implementing, validating papers
@@ -107,6 +115,7 @@ The scientific method applied to engineering work.
 - `research_prototypes/` — Rapid prototyping and idea validation
 
 ### `08_capstone/` — Capstone Systems
+
 End-to-end systems that integrate everything.
 
 - `ai_portfolio_generator/` — Resume → AI-written copy → styled static site → deploy
